@@ -51,7 +51,7 @@ System.out.println(f1);//c:\abc\1.txt
 ```
 
 **路径分隔符：**  
-windows： "/" "\" 都可以  
+windows： "/" "\\" 都可以  
 linux/unix： "/"  
 注意:如果windows选择用"\"做分割符的话,那么请记得替换成"\\",因为Java中"\"代表转义字符  
 所以推荐都使用"/"，也可以直接使用代码`File.separator`，表示跨平台分隔符。  
